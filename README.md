@@ -44,17 +44,28 @@ Herramientas utilizadas
 
 Cómo ejecutar los scripts SQL
   Requisitos previos
+  
   SQL Server instalado (por ejemplo, la edición Express o Developer).
+  
   SQL Server Management Studio (SSMS). Asegurarse de que al usar SQL SMS, estemos conectados a la misma ruta donde hayamos guardado los archivos y así funcionen bien ya que mi ruta no es la misma que ustedes van a tener en su computadora
   Power BI Desktop, solo si querés abrir los archivos .pbix. Asegurarse de que al usar POWER BI, estemos conectados a la misma ruta donde hayamos guardado los archivos y así funcionen bien ya que mi ruta no es la misma que ustedes van a tener en su computadora
+  
   Pasos
+  
   Cloná el repositorio:
+  
   bash
+  
    git clone https://github.com/matiasto14/coder-house-data-analytics.git
+ 
   Abrí SSMS y conectate a tu instancia de SQL Server.
+  
   Creá la base de datos y las tablas. En SSMS elegí Archivo > Abrir > Archivo…, seleccioná ventas_tech_db.sql y ejecutalo con F5.
+ 
   Verificá la carga de datos con una consulta simple:
+ 
   sql
+  
    SELECT COUNT(*) FROM ventas;
   Ejecutá las consultas de negocio. Abrí m4_consultas_negocio.sql, asegurate de tener seleccionada la base de datos correcta en el selector de SSMS (o agregá USE nombre_de_la_base; al inicio) y ejecutalo con F5.
   Ejecutá las consultas con JOIN. Repetí el paso anterior con m5_consultas_joins.sql.
