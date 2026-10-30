@@ -48,6 +48,7 @@ Cómo ejecutar los scripts SQL
   SQL Server instalado (por ejemplo, la edición Express o Developer).
   
   SQL Server Management Studio (SSMS). Asegurarse de que al usar SQL SMS, estemos conectados a la misma ruta donde hayamos guardado los archivos y así funcionen bien ya que mi ruta no es la misma que ustedes van a tener en su computadora
+  
   Power BI Desktop, solo si querés abrir los archivos .pbix. Asegurarse de que al usar POWER BI, estemos conectados a la misma ruta donde hayamos guardado los archivos y así funcionen bien ya que mi ruta no es la misma que ustedes van a tener en su computadora
   
   Pasos
